@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+
+
+}
+
+body button {
+    color: red;
+    border: 2px solid white;
+    background-color: black;
+    margin-top: 30px;
+    width: 64px;
+    height: 32px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+
+#box {
+    background-color: yellow;
+    border: 2px solid white;
+    width: 30px;
+    height: 30px;
+    margin-left: 648px;
+    /* display: flex; */
+    margin-top: 225px;
+    margin-right: auto;
+
+
+}
+
+.up {
+    /* margin-top: 29px; */
+    margin-left: 69px;
+    /* margin-bottom: -5px;*/
+}
+
+
+div.buttons {
+    margin-left: 567px;
+    /* margin-bottom: 54px; */
+    margin-top: -1px
+}
+
+.container {
+    height: 497px;
+    border: 2px solid red;
+    width: auto;
+}
+
+.cent.center {
+    color: red;
+    border: 2px solid white;
+    background-color: black;
+    width: 64px;
+    height: 32px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.cent {
+    display: block;
+    margin-top: -95px;
+    margin-left: 140px;
+}
