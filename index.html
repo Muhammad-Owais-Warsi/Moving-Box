@@ -1,32 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Moving Box</title>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
 </head>
-
 <body>
-
     <div class="container">
-        <div id="box"></div>
-    </div>
-    <div class="buttons">
-        <div class="up">
-            <button onclick="Up()">UP</button>
+        <div class="box">
+            <div class="smallbox" id="box"></div>
         </div>
-        <button class="left" onclick="Left()">LEFT</button>
-        <button class="down" onclick="Down()">DOWN</button>
-        <button class="right" onclick="Right()">RIGHT</button>
+    </div><br>
+    <button class="upbtn" onclick="Up()">UP</button><br>
+    <div class="threebtn">
+    <button onclick="Left()"> LEFT</button>
+    
+    <button onclick="Center()">CENTER</button>
+    <button onclick="Right()">RIGHT</button>
     </div>
-    <div class="cent">
-        <button class="center" onclick="Center()">Center</button>
+    <div>
+    <button class="downbtn" onclick="Down()">DOWN</button>
     </div>
-
+   
 </body>
-
 </html>

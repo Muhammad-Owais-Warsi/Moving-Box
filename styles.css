@@ -1,66 +1,46 @@
-body {
-    background-color: black;
-
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
 }
-
-body button {
-    color: red;
-    border: 2px solid white;
+body{
     background-color: black;
-    margin-top: 30px;
-    width: 64px;
-    height: 32px;
-    border-radius: 30px;
+}
+.box{
+    border: 2px solid rgb(68, 210, 229);
+    height: 518px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.smallbox{
+    border: 2px solid rgb(68,210,229);
+    width: 50px;
+    height: 50px;
+    background-color: greenyellow;
+}
+button{
+    border: 4px solid rgb(68,210,229);
+    margin: 4px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(70, 65, 65);
     cursor: pointer;
-
+    padding-left: 4px;
+    padding-right: 4px;
 }
-
-
-#box {
-    background-color: yellow;
-    border: 2px solid white;
-    width: 30px;
-    height: 30px;
-    margin-left: 648px;
-    /* display: flex; */
-    margin-top: 225px;
-    margin-right: auto;
-
-
+button:hover{
+    background-color: rgb(23, 22, 22);
 }
-
-.up {
-    /* margin-top: 29px; */
-    margin-left: 69px;
-    /* margin-bottom: -5px;*/
+.upbtn{
+    margin-left: 749px;
 }
-
-
-div.buttons {
-    margin-left: 567px;
-    /* margin-bottom: 54px; */
-    margin-top: -1px
+.threebtn{
+    margin-left: 674px;
 }
-
-.container {
-    height: 497px;
-    border: 2px solid red;
-    width: auto;
-}
-
-.cent.center {
-    color: red;
-    border: 2px solid white;
-    background-color: black;
-    width: 64px;
-    height: 32px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.cent {
-    display: block;
-    margin-top: -95px;
-    margin-left: 140px;
+.downbtn{
+    margin-left: 737px;
 }
